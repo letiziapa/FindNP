@@ -19,7 +19,7 @@ The report and executive summary can be found under `report`.
 ## Usage
 The repository can be cloned into a local directory by typing the following on the command line:
 ```bash
-git clone https://gitlab.developers.cam.ac.uk/phy/data-intensive-science-mphil/projects/lp645.git
+git clone https://github.com/letiziapa/FindNP.git
 ```
 
 The required packages are specified in the `environment.yml` file, and a `conda` environment can be created by running on the command line:
