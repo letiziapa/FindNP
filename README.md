@@ -2,8 +2,13 @@
 
 ## Description
 This repository contains the code implemented in the project **Searches for New Physics at the Large Hadron Collider**. 
-The code base is contained in the `src` directory. The Neural Networks are trained on Monte Carlo simulations of the Standard Model and Physics Beyond the Standard model (not uploaded because of size limits).
+
+The code base is contained in the `src` directory. 
+
+The Neural Networks are trained on Monte Carlo simulations of the Standard Model and Physics Beyond the Standard model (not uploaded because of size limits).
+
 The functions used throughout the analysis are saved under `utils`.
+
 The weights of each trained Neural Network are saved under `weights` ('Parton_level_< >' for training at the parton level and 'Full_model_weights_< >' for the complete analysis)
 
 The `traditional_analysis.py` file provides the results and plots used in the binned analysis.
