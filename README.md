@@ -1,5 +1,3 @@
-# MPhil DIS Final Project
-
 ## Description
 This repository contains the code implemented in the project **Searches for New Physics at the Large Hadron Collider**. 
 
@@ -14,8 +12,6 @@ The weights of each trained Neural Network are saved under `weights` ('Parton_le
 The `traditional_analysis.py` file provides the results and plots used in the binned analysis.
 The `PartonLevel_< >.py` files refer to the second section of the project (analysis of the neural networks at the parton level). The outputs of each model can be compared with the analytical descriptions of the decision boundary. These are unique to each coefficient (in their linear and quadratic form).
 The `FullAnalysis.py` concludes the study by combining the Neural Networks trained on the full-feature datasets and the Nested Sampling algorithm used at the beginning. The NS parameter inference might require some more time to execute (on average less than 5 minutes) due to the complexity of the likelihood.
-
-The report and executive summary can be found under `report`.
 
 ## Usage
 The repository can be cloned into a local directory by typing the following on the command line:
@@ -47,5 +43,8 @@ open html/index.html
 ```
 
 The code was developed on Python 3.10.13 in Visual Studio Code using macOS on an Apple M2 processor.
+
+## Author
+Letizia Palmas
 
 
